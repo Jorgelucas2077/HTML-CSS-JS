@@ -1,0 +1,18 @@
+/* 1 */
+div {
+    width: 100px;
+    height: 100px;
+    background: blueviolet;
+}
+
+/* 10 */
+.div {
+    background: orange;
+}
+
+/* 100 */
+#div {
+    background: blue;
+}
+
+/* seleção inline - 1000 */

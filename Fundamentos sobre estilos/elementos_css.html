@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="elemento_css.css">
+</head>
+<body>
+    <!--
+    
+    >       seleciona elementos filhos no proximo nível;
+    ""      seleciona elementos filhos, independe do nivel;
+    +       seleciona irmãos
+
+    -->
+
+    <!--
+    color                    descreve a cor (primeiro plano) do texto contido em um elemento.
+    background-attachment    define como uma imagem de plano de fundo é ajustada.
+    Exemplo:
+        body { color: black; }
+        h1{ color: ‘#ff0000’; }
+        h2 { color: rgb(0,0,255); }
+
+    background-color         usada para determinar a cor de fundo de um elemento.
+    Exemplo:
+        body { background-color: ‘#ff0099’; }
+        p { background-color: transparent; }
+    
+    background-image
+    Exemplo:
+        body { background-image: none; }
+        div { background-image: url(‘suco.jpg’); }     
+
+    background-position     descreve onde (em qual posição do fundo do elemento) a imagem de fundo deve estar. 
+
+        % - alinha a imagem de fundo como uma porcentagem da área do elemento (horizontal ou verticalmente). 
+        pixel   alinha a imagem de fundo com a distância definida (horizontal ou verticalmente).
+        center  Alinha a imagem de fundo no meio (horizontal ou verticalmente).
+        bottom  Alinha a imagem de fundo com a parte inferior do elemento. (apenas vertical)
+        left    Alinha a imagem de fundo com a borda esquerda do elemento. (apenas horizontal)
+        right   Alinha a imagem de fundo com a borda direita do elemento. (apenas horizontal)
+        top     Alinha a imagem de fundo com a parte superior do elemento. (apenas vertical)
+
+    background-repeat       descreve como a imagem de fundo deve ser repetida.
+        no-repeat    A imagem de fundo é desenhada uma vez no local especificado. Se a área de exibição do elemento for maior do que a imagem, o restante da área de exibição será preenchido com a cor de fundo ou o elemento abaixo. 
+        repeat       A imagem de fundo é desenhada no local especificado. Se a área de exibição do elemento for maior, a imagem é copiada / adicionada horizontalmente e verticalmente. A imagem é repetida até que a área de exibição seja preenchida.
+        repeat-x     A imagem de fundo é desenhada no local especificado. Se a área de exibição do elemento for maior, a imagem só será copiada / adicionada horizontalmente. A imagem é repetida até que atravesse completamente a área de exibição horizontalmente. O restante da área de exibição livre é preenchido com a cor de fundo ou o elemento abaixo.
+        repeat-y     A imagem de fundo é desenhada no local especificado. Se a área de exibição do elemento for maior, a imagem só será copiada / anexada verticalmente.
+
+        Exemplo:
+            body { background-repeat: repeat-y; }
+            p { background-repeat: no-repeat; }
+    
+    background               combinação das propriedades do plano de fundo mencionadas acima (exceto color).
+
+  Os valores são separados uns dos outros por espaços. O ideal deve seguir o padrão:
+    background-color background-image background-repeat background-attachment background-position
+
+        Exemplo:
+            body {background: red url (‘suco.gif’) left 50%; }
+            p {background: transparent url (‘paisagem.gif’) repeat-x; }
+
+    -->
+<div></div> <!-- 1 -->
+<br>
+<div class="div"></div> <!-- 10 > 1 => 10 -->
+<br>
+<div id="div" class="div"></div> <!-- < 100 -->
+<br>
+<div 
+    id="div" 
+    class="div" 
+    style="background: darkgreen;">
+    
+</div>
+
+</body>
+</html>

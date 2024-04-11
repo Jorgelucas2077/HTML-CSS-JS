@@ -1,0 +1,17 @@
+h1 {
+    color:black;
+    font-size: 14px;
+    text-align: center;
+}
+
+.corpoDoTexto {
+    color: blue;
+}
+
+.corpoDoTexto2 {
+    color: red;
+}
+
+body {
+    background-color:darkkhaki;
+}
