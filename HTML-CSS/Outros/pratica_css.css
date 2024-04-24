@@ -1,0 +1,33 @@
+.list {
+    list-style: none;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    background-color: turquoise;
+    height: 100vr;
+}
+
+.content {
+    background-color: tomato;
+    flex-grow: 1;
+}
+.navbar {
+    display: flex;
+    background-color:gray ;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.menu_button {
+    background-color: green;
+}
+
+.search_button {
+    background-color: red;
+}
+
+.logo {
+    background-color: white;
+}

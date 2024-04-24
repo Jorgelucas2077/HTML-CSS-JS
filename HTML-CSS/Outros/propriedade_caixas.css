@@ -1,0 +1,10 @@
+.list {
+    list-style-type: none;
+}
+
+.texto {
+    text-align: center;
+    text-decoration: underline wavy blue;
+    letter-spacing: normal;
+    text-shadow: 4px 4px 4px red;
+}
