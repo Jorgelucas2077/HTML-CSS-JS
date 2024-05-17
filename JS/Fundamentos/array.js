@@ -22,3 +22,25 @@ for (var pos = 0; pos < valores.length; pos++){
 
 var media = soma/valores.length;
 console.log(media);
+
+//splice
+var nomes = ["maria","joao","lucas","pedro"];
+var novos = nomes.splice(1,2,"luiz","ronaldo");
+console.log(nomes);
+
+//unshift
+var pais = ["brasil","argentina","colombia"];
+pais.unshift("uruguai");
+console.log(pais);
+
+//slice
+var pessoa = ["eduardo","joana","wallace","rosana"];
+var gerente = ["davi","manuela"];
+var pessoas1 = pessoa.slice(1,3);
+
+console.log(pessoa);
+console.log(pessoas1);
+
+//concat
+var empresa = pessoa.concat(gerente);
+console.log(empresa);
