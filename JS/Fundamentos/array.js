@@ -49,3 +49,13 @@ console.log(empresa);
 const numbers = [1,2,3,4,8,10,20];
 const evens = numbers.filter(item => item %2 === 0);
 console.log(evens);
+
+//filter pares
+
+var numeros = [1,2,3,4,5,6,7,8,9,10];
+function buscarNumerosPares (value) {
+    if (value % 2 == 0)
+        return value;
+}
+var numerosPares = numeros.filter (buscarNumerosPares);
+console.log(numerosPares);
