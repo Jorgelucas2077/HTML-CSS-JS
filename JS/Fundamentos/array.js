@@ -44,3 +44,8 @@ console.log(pessoas1);
 //concat
 var empresa = pessoa.concat(gerente);
 console.log(empresa);
+
+//filter
+const numbers = [1,2,3,4,8,10,20];
+const evens = numbers.filter(item => item %2 === 0);
+console.log(evens);
